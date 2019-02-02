@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.4">
-      <HintPath>F:\Bunifu_UI_v1.4.dll</HintPath>
+      <HintPath>D:\Bunifu_UI_v1.4.dll</HintPath>
     </Reference>
     <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
@@ -156,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Customer_Registration_Form.resx">
       <DependentUpon>Customer_Registration_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GRN_Form.resx">
+      <DependentUpon>GRN_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Inventory_Form.resx">
       <DependentUpon>Inventory_Form.cs</DependentUpon>
