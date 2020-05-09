@@ -58,7 +58,7 @@ namespace Inventory_Control_System__House_of_Furniture_
 
             catch (SqlException)
             {
-                MessageBox.Show("Check the Database Connecton", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Check your Database Connecton", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch (Exception)
             {
